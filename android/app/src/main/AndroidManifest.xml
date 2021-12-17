@@ -28,8 +28,8 @@
 
 
    <application
-        android:label="minimal_notes"
-        android:icon="@mipmap/ic_launcher">
+        android:label="Minimal Notes"
+        android:icon="@mipmap/minimal_notes">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
