@@ -39,7 +39,6 @@ class NoteScreen extends StatelessWidget {
                     RoundedButton(
                         icon: Image.asset('assets/images/edit.png'),
                         onTap: () {
-                          // TODO Implement edit button
                           Get.to(() => EditorPage(index: index));
                         }),
                   ],
