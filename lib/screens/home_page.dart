@@ -91,7 +91,7 @@ class HomePage extends StatelessWidget {
                             var removed = noteController.notes[index];
                             noteController.notes.removeAt(index);
                             Get.snackbar('Task removed',
-                                'The task "${removed.text}" was successfully removed.',
+                                'The task ${removed.title} — ${removed.text} was successfully removed.',
                                 barBlur: 100, colorText: Colors.white);
                           },
                           child: ListTile(
